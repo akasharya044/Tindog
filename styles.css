@@ -1,0 +1,208 @@
+#title{
+    background-color: #ff4c6f;
+    position: relative;
+
+    
+}
+
+
+
+.title-text , .price{
+    text-align: left;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ line-height: 1.5;
+ font-weight: 50px;
+ font-style: bold;
+ color:white;
+}
+@media (max-width: 500px)
+{
+    .title-text
+    {
+        font-size: 1.5rem;
+        
+        line-height: 1;
+        color: black;
+    }
+    .phone_img
+{
+    
+   margin-top: 20px;
+   
+   
+   position: static;
+   z-index: 0;
+}
+}
+
+.container-fluid{
+    padding:3% 15%;
+    
+}
+
+.nav-item
+{
+    margin-right: 15px;
+}
+
+.navbar-collapse
+{
+    padding-left: 700px;
+}
+
+.navbar-brand
+{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size:  1.5rem;
+}
+
+.phone_img
+{
+    transform: rotate(22deg);
+   margin-top: 20px;
+   padding-top: 12%;
+   
+}
+
+
+#feature
+{
+    text-align: center;
+    background-color: white;
+     z-index: 1;
+    position: relative;
+   
+    
+
+}
+.features
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+}
+
+.feature-icon
+{
+      
+  padding-bottom: 5%;
+  color: #ff4c6f;
+
+}
+
+.fab
+{
+    padding-right: 10px;
+}
+.d-block
+{
+    width: 100px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    left: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#testimonials
+{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: antiquewhite;
+    
+}
+
+.testimonial-text
+{
+    text-align: center;
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: 50px;
+    font-style: bold;
+}
+
+.car {
+    text-align: center;
+}
+
+
+.price{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    font-style: bold;
+
+}
+ 
+.last
+{
+    text-align: center;
+    background-color: #ff4c6f;
+   margin-top: 40px;
+   margin-bottom:40px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.last-section
+{
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* CSS */
+.button-40 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
+
